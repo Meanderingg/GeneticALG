@@ -37,13 +37,13 @@ a Ctypes python wrapper and an algorithm written in python.
 
 The file format expects:
 
--Chromosome count (population size)
--Domain boundaries (min max)
--Polynomial coefficients ($a, b, c$ for $ax^2 + bx + c$)
--Precision (number of decimal places)
--Crossover probability (e.g., 0.25)
--Mutation probability (e.g., 0.01)
--Number of generations/steps (e.g., 50)
+- Chromosome count (population size)
+- Domain boundaries (min max)
+- Polynomial coefficients ($a, b, c$ for $ax^2 + bx + c$)
+- Precision (number of decimal places)
+- Crossover probability (e.g., 0.25)
+- Mutation probability (e.g., 0.01)
+- Number of generations/steps (e.g., 50)
 
 ## Licence
 
