@@ -20,16 +20,16 @@ a Ctypes python wrapper and an algorithm written in python.
 ## Compilation and execution
 
 1. Compilte the library: 
-`
+```
     gcc -c -Wall -Werror -fpic genetic.c
     gcc -shared -o genetic.so libgenetic.o
-`
+```
 2. Add the library to the path: 
-`
+```
     sudo cp ./libgenetic.so /usr/lib
     chmod 777 /usr/lib/libgenetic.so
     ldconfig
-`
+```
 3. Configure parameters.in
 4. Run with python3 algortihm.py
 
