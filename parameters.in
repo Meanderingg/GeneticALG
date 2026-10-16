@@ -1,0 +1,7 @@
+20 #nr cromozomi
+-1 2 #domeniul de definitie
+-1 1 2 #coeficienti polinom de grad 2
+6 #precizia
+0.25 #probabilitatea de recombinare
+0.01 #probabilitatea de mutatie
+50 #nr etape ale algoritmului
