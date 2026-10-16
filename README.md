@@ -1,4 +1,3 @@
-Todo: add links in the project description to the rest of the documet
 # Polynomial function Genetic Algorithm
 
 This is a simple genetic algorithm designed to find the maximum of a second degree polynomial function. It consists of a core library written in C,
