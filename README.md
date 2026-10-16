@@ -7,7 +7,7 @@ a Ctypes python wrapper and an algorithm written in python.
 
 - *Core functions:* A C implementation of roulette-wheel selection intervals, binary encoding/decoding, bit-level crossover, and mutation. 
 - *Execution and visualisation:* The `Ctypes` wrapper and algorithm are written in python, with a visualisation using `matplotlib`.
-- *Configuration:* The tweak population sizes, domain boundaries, polynomial coefficients, precision, and mutation/crossover probabilities can be changed via the configuration file.
+- *Configuration:* Tweak population sizes, domain boundaries, polynomial coefficients, precision, and mutation/crossover probabilities can be changed via the configuration file.
 
 ## Structure
 
@@ -18,7 +18,7 @@ a Ctypes python wrapper and an algorithm written in python.
 
 ## Compilation and execution
 
-1. Compilte the library: 
+1. Compile the library: 
 ```
     gcc -c -Wall -Werror -fpic genetic.c
     gcc -shared -o genetic.so libgenetic.o
@@ -30,7 +30,7 @@ a Ctypes python wrapper and an algorithm written in python.
     ldconfig
 ```
 3. Configure parameters.in
-4. Run with python3 algortihm.py
+4. Run with python3 algorithm.py
 
 ## Parameter configuration
 
